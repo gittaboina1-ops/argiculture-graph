@@ -1,0 +1,16 @@
+{
+  "name": "agricultural-knowledge-graph",
+  "version": "1.0.0",
+  "description": "Hackathon MVP: sentence → Gemini → OpenAlex → Neo4j → interactive graph",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "neo4j-driver": "^5.28.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
